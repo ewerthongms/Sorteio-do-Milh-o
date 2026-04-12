@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sorteio do milhão</title>
+
+</head>
+
+<body>
+    <div id="all">
+        <img src="./assets/img/dados1.png" class="Logo">
+        <h1 id="parabens">Sorteio do milhão</h1>
+        <input type="text" id="resultadoo" placeholder="Resultado" readonly>
+
+
+        <main class="div-principal">
+            <h2 >Sortear número</h2>
+            <input type="number" class="min-input" id="input1" placeholder="Valor minimo">
+            <input type="number" class="max-input" id="input2" placeholder="valor maximo">
+            <br>
+            <button onclick="botaoRandom(); confetti()">Sortear</button id="botao">
+
+        </main>
+    </div>
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

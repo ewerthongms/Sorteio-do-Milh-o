@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DynaPuff", system-ui;
+}
+
+div {
+    display: block;
+    position: fixed;
+    margin-left: 500px;
+    height: 50vh;
+    width: 500px;
+}
+
+h1{
+    position: relative;
+    left: 40px;
+}
+   
+
+.Logo {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 20px;
+}
+
+.div-principal {
+    width: 400px;
+    margin-top: 70px ;
+}
+
+button {
+    position: relative;
+    top: 10px;
+    left: 130px;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+button:hover {
+    background-color: #00a824;
+}
+
+h2 {
+    position: relative;
+    bottom: 10px;
+    left: 80px;
+}
+
+
+#resultadoo {
+    position: relative;
+    left: 130px;
+    top: 30px;
+    text-align: center;
+    background-color: black;
+    width: 100px;
+    color: white;
+    border-radius: 50px;
+    height: 100px;
+    font-size: 26px;
+    cursor: default;
+   
+}
+
+#resultadoo::placeholder {
+    font-size: 18px;
+
+}
+#input1::placeholder, #input2::placeholder {
+    text-align: center;
+    color: black;
+    transition: 1s;
+}
+
+#input1, #input2{
+    text-align: center;
+}
+
+
+
+
+@media screen and  (max-width: 436px) {
+ 
+    
+   #all {
+        display: flex;
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 5px;
+        width: 350px;
+        
+   }
+
+   .Logo {
+    display: flex;
+    position: absolute;
+    margin-top: 1px;
+    height: 300px;
+
+   }
+
+   #parabens {
+        display: flex;
+        position: absolute;
+        margin-top: 250px;
+   }
+
+
+   #resultadoo {
+    display: flex;
+    position: absolute;
+    margin-top: 280px;
+    cursor: default;
+   }
+
+
+   .div-principal {
+    display: relative;
+    position: absolute;
+    margin-top: 450px;
+    width: 57vh;
+   }
+   
+   h2{
+    width: 200px;
+   }
+
+}
+    
