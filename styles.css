@@ -70,6 +70,7 @@ h2 {
 
 #resultadoo::placeholder {
     font-size: 18px;
+    color: white;
 
 }
 #input1::placeholder, #input2::placeholder {
@@ -126,7 +127,7 @@ h2 {
     display: relative;
     position: absolute;
     margin-top: 450px;
-    width: 57vh;
+    width: 58vh;
    }
    
    h2{
