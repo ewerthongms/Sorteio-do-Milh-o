@@ -11,7 +11,4 @@ function generateNumber(){
     
     exit.value = result    
      
-
-
-
 }
