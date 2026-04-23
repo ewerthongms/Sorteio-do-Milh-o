@@ -93,7 +93,12 @@ h2 {
 
 
 @media screen and  (max-width: 436px) {
- 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "DynaPuff", system-ui;
+    }
     
    #all {
         display: flex;
