@@ -103,7 +103,7 @@ h2 {
    #all {
         display: flex;
         position: absolute;
-        margin-left: 20px;
+        margin-left: 40px;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-right: 5px;
@@ -117,7 +117,7 @@ h2 {
     margin-top: 1px;
     height: 300px;
     align-items: center;
-    left: 20px;
+    left: 40px;
    }
 
    #parabens {
@@ -136,7 +136,7 @@ h2 {
     width: auto;
     height: 100px;
     align-items: center;
-    left: 15px;
+    left: 40px;
     border-radius: 15px;
     background-color: white;
     color: black;
@@ -162,10 +162,10 @@ h2 {
     cursor: pointer;
    }
    h1{
-    left: 70px;
+    left: 80px;
    }
    .Logo{
-    left: 68px;
+    left: 78px;
    }
 
 
