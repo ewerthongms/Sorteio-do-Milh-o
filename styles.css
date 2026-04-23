@@ -118,7 +118,7 @@ h2 {
     margin-top: 1px;
     height: 300px;
     align-items: center;
-    left: 40px;
+    left: 30px;
    }
 
    #parabens {
@@ -158,12 +158,13 @@ h2 {
     width: 200px;
    }
    #botao{
-    top: 40px;
+    top: 30px;
     box-shadow: 0px 0px 10px 0px ;
     cursor: pointer;
+    margin-bottom: auto;
    }
    h1{
-    left: 80px;
+    left: 70px;
    }
    .Logo{
     left: 88px;
